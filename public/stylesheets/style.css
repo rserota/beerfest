@@ -1,12 +1,15 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color:white;
+  font-family: fantasy;
+  background-color: dodgerblue;
 }
 
 a {
   color: #00B7FF;
 }
-
-#buck-wild {
-    -webkit-transition: all .1s;
+.buck-wild {
+	-webkit-transition: all 1s;
 }
+
+

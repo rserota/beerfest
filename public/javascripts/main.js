@@ -100,10 +100,10 @@ hopList.sort(function(a,b){
 // }
 
 $(document).ready(function(){
-    // setInterval(function(){
-    //     $('#buck-wild').css('font-size', Math.floor(Math.random()*100))
-    //     $('#buck-wild').css('color', '#' + Math.floor(Math.random()*1000))
-    // },100)
+    setInterval(function(){
+        // $('.buck-wild').css('font-size', Math.floor(Math.random()*100))
+        $('.buck-wild').css('background-color', '#' + Math.floor(Math.random()*1000))
+    },100)
 	var newHopList = []
 	for(var i=0;i<3;i++){
 		newHopList.push(hopList[i])
